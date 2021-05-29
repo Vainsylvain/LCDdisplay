@@ -1,0 +1,89 @@
+@font-face 
+{
+    font-family: "digital LCD";
+    src: url("Fonts/DS-DIGII.TTF");
+}
+
+@font-face 
+{
+    font-family: "digital button";
+    src : url("Fonts/\ Get\ Digital.ttf");
+}
+
+@font-face 
+{
+    font-family: "digital7";
+    src : url("Fonts/digital-7.ttf");
+}
+
+@font-face 
+{
+    font-family: "open display";
+    src : url("Fonts/Open\ 24\ Display\ St.ttf");
+}
+
+@font-face 
+{
+    font-family: "techbold";
+    src : url("Fonts/Technology-Bold.ttf");
+}
+
+@font-face 
+{
+    font-family: "techno";
+    src : url("Fonts/Technology.ttf");
+}
+
+@font-face 
+{
+    font-family: "the display";
+    src : url("Fonts/The\ Display\ St.ttf");
+}
+
+@font-face 
+{
+    font-family: "showtime";
+    src : url("Fonts/Showtime.ttf");
+}
+
+/* BODY */
+
+body
+{
+background: url("background/technologybg.jpg") no-repeat center fixed;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+#lcdDisplay
+{
+    text-shadow: 10px 1px 2px black;
+    color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "digital LCD";
+    font-size: 200px;
+    max-width: 950px;
+    width: 100%;
+    table-layout: fixed; 
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+#saisie
+{
+    text-shadow: 1px 1px 2px blanchedalmond;
+    background-color: black;
+    color: aqua;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: "showtime";
+    text-transform: uppercase;
+    border: 5px solid black;
+    width: fit-content;
+    font-size: 50px;
+}
