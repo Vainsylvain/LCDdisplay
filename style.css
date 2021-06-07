@@ -1,56 +1,20 @@
 @font-face 
 {
     font-family: "digital LCD";
-    src: url("./DS-DIGII.TTF");
+    src: url("polices/DS-DIGII.TTF");
 }
 
 @font-face 
 {
     font-family: "digital button";
-    src : url("./DJB Get Digital.ttf");
-}
-
-@font-face 
-{
-    font-family: "digital7";
-    src : url("./digital-7.ttf");
-}
-
-@font-face 
-{
-    font-family: "open display";
-    src : url("./Open 24 Display St.ttf");
-}
-
-@font-face 
-{
-    font-family: "techbold";
-    src : url("./Technology-Bold.ttf");
-}
-
-@font-face 
-{
-    font-family: "techno";
-    src : url("./Technology.ttf");
-}
-
-@font-face 
-{
-    font-family: "the display";
-    src : url("./The Display St.ttf");
-}
-
-@font-face 
-{
-    font-family: "showtime";
-    src : url("./Showtime.ttf");
+    src : url("polices/coolvetica.ttf");
 }
 
 /* BODY */
 
 body
 {
-    background: url("./technologybg.jpg") no-repeat center fixed;
+    background: url("images/technologybg.jpg") no-repeat center fixed;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -81,7 +45,7 @@ body
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;
-    font-family: "showtime";
+    font-family: "digital button";
     text-transform: uppercase;
     border: 5px solid black;
     width: fit-content;
